@@ -6,7 +6,7 @@ The original kernel sources (`.pbk`) are lost. Only the compiled bytecode (`.pbj
 
 ## Filter bench
 
-[`web/index.html`](web/index.html) is a single-file page that runs every kernel live on the GPU:
+[`docs/index.html`](docs/index.html) is a single-file page that runs every kernel live on the GPU. Try it at <https://jpdevries.github.io/kernel/>. It has:
 
 - one slider per kernel parameter, using the ranges stored in the bytecode
 - ▶ on any parameter animates it back and forth, as Kernel's timeline did
@@ -18,7 +18,7 @@ The original kernel sources (`.pbk`) are lost. Only the compiled bytecode (`.pbj
 Serve the folder over HTTP. Browsers refuse to load local image files into WebGL from `file://`.
 
 ```bash
-python3 -m http.server 8000 --directory web
+python3 -m http.server 8000 --directory docs
 ```
 
 Then open <http://localhost:8000>.
@@ -75,7 +75,7 @@ kernel HWave
 
 ## Credits
 
-The Orion Nebula test image (`web/orion.jpg`) was Kernel's original sample image and is a NASA Spitzer and Hubble composite (NASA/JPL-Caltech).
+The Orion Nebula test image (`docs/orion.jpg`) was Kernel's original sample image and is a NASA Spitzer and Hubble composite (NASA/JPL-Caltech).
 
 ## License
 
