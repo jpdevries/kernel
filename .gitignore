@@ -1,0 +1,16 @@
+# Original 2009 Kernel AIR app sources, binaries and design files (kept local)
+archive/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Claude Code local settings
+.claude/settings.local.json
